@@ -1,11 +1,11 @@
 <?php  
-	$contrasena = '';
-	$usuario = 'root';
-	$nombrebd= 'nota';
+	$contrasena = 'vG6NbeFrvKKwh8';
+	$usuario = 'epiz_30301797';
+	$nombrebd= 'epiz_30301797_ExamenDesarrollos';
 
 	try {
 		$bd = new PDO(
-			'mysql:host=localhost;
+			'mysql:host=sql206.epizy.com;
 			dbname='.$nombrebd,
 			$usuario,
 			$contrasena,
